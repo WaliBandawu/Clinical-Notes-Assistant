@@ -1,0 +1,53 @@
+Patient Name: John Doe  
+Age: 55  
+Sex: Male  
+Date: 2025-06-12  
+
+Chief Complaint:  
+Patient presents with chest pain radiating to the left arm, accompanied by shortness of breath and nausea.
+
+History of Present Illness:  
+Symptoms began three days ago with mild discomfort during physical activity. Pain has intensified, especially during exertion. Denies prior episodes. No history of trauma.
+
+Past Medical History:  
+- Hypertension  
+- Hyperlipidemia  
+- Type 2 Diabetes Mellitus  
+
+Medications:  
+- Lisinopril 10mg daily  
+- Metformin 500mg BID  
+- Atorvastatin 40mg at bedtime  
+
+Allergies:  
+No known drug allergies.
+
+Family History:  
+Father died of myocardial infarction at age 60. Mother has hypertension.
+
+Social History:  
+Former smoker (10 pack-years), quit 5 years ago. Drinks occasionally. Sedentary lifestyle.
+
+Physical Examination:  
+- BP: 145/90 mmHg  
+- HR: 92 bpm  
+- Temp: 36.9°C  
+- RR: 20  
+- O2 Sat: 96% on room air  
+- Cardiovascular: S1 and S2 audible, no murmurs. Mild tenderness on palpation over chest wall.  
+- Respiratory: Clear to auscultation bilaterally.
+
+Investigations:  
+- ECG: ST-segment depressions in leads II, III, aVF  
+- Troponin I: Elevated  
+- Chest X-ray: Normal cardiac silhouette  
+
+Assessment/Plan:  
+1. Suspected NSTEMI  
+2. Admit to telemetry unit  
+3. Start aspirin, clopidogrel, beta-blocker, and heparin drip  
+4. Monitor cardiac enzymes q6h  
+5. Cardiology consult for possible angiography
+
+Physician: Dr. A. Mensah  
+Signature: ____________________
