@@ -1,0 +1,391 @@
+2025-11-22 22:31:31 - healthcare_rag_backend.app.core.logging_config - INFO - Loading documents from: /Users/waliyyullah/Desktop/Portforlio/Redis Healthcare/Clinical-Notes-Assistant/healthcare_rag_backend/data/clinical_docs/clinical_notes.txt
+2025-11-22 22:31:31 - healthcare_rag_backend.app.core.logging_config - INFO - Created 2 chunks from document
+2025-11-22 22:31:35 - healthcare_rag_backend.app.core.logging_config - INFO - Successfully stored 2 document chunks in Redis
+2025-11-22 22:31:39 - healthcare_rag_backend.app.core.logging_config - INFO - Loading documents from: /Users/waliyyullah/Desktop/Portforlio/Redis Healthcare/Clinical-Notes-Assistant/healthcare_rag_backend/data/clinical_docs/clinical_notes.txt
+2025-11-22 22:31:39 - healthcare_rag_backend.app.core.logging_config - INFO - Created 2 chunks from document
+2025-11-22 22:31:41 - healthcare_rag_backend.app.core.logging_config - INFO - Successfully stored 2 document chunks in Redis
+2025-11-22 22:32:46 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:32:50 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:33:44 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:33:49 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:33:58 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:34:00 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:34:01 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:34:02 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:34:04 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:34:07 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:34:09 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:34:10 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:35:18 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-11-22 22:36:42 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-22 22:36:42 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-22 22:36:42 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-22 22:36:42 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-22 22:36:42 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-22 22:36:44 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-22 22:36:45 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-22 22:36:45 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-22 22:36:45 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-22 22:36:45 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-22 22:36:45 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-22 22:37:50 - healthcare_rag_backend.app.core.logging_config - INFO - Retrieving documents for question: What are the patients symptoms...
+2025-11-22 22:37:53 - healthcare_rag_backend.app.core.logging_config - INFO - Retrieved 0 similar documents (min similarity: 0.5)
+2025-11-23 06:02:14 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:15 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:15 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:15 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:15 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:15 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:19 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:20 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:20 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:20 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:20 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:20 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:24 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:24 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:24 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:24 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:24 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:24 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:29 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:30 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:30 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:30 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:30 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:30 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:30 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:31 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:31 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:31 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:31 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:31 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:33 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:33 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:33 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:33 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:33 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:33 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:41 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:41 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:41 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:41 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:41 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:41 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:45 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:46 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:46 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:46 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:46 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:46 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:02:52 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:02:53 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:02:53 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:02:53 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:02:53 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:02:53 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:09 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:10 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:10 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:10 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:10 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:10 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:18 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:18 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:18 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:18 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:18 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:18 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:29 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:29 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:29 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:29 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:29 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:29 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:31 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:31 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:31 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:31 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:31 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:31 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:32 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:33 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:33 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:33 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:33 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:33 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:34 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:34 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:34 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:34 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:34 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:34 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:37 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:37 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:37 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:37 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:37 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:37 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:39 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:40 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:40 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:40 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:40 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:40 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:47 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:48 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:48 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:48 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:48 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:48 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:53 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:53 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:53 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:53 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:53 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:53 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:03:56 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:03:56 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:03:56 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:03:56 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:03:56 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:03:56 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:04:00 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:04:00 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:04:00 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:04:00 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:04:00 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:04:00 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:04:05 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:04:06 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:04:06 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:04:06 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:04:06 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:04:06 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:05:52 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:05:52 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:05:52 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:05:52 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:05:52 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:05:52 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:06:25 - healthcare_rag_backend.app.core.logging_config - INFO - Retrieving documents for question: What is the diagnosis...
+2025-11-23 06:06:27 - healthcare_rag_backend.app.core.logging_config - INFO - Retrieved 0 similar documents (min similarity: 0.50)
+2025-11-23 06:06:55 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:06:56 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:06:56 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:06:56 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:06:56 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:06:56 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:00 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:00 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:00 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:00 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:00 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:00 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:04 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:05 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:05 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:05 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:05 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:05 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:09 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:10 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:10 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:10 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:10 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:10 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:16 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:17 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:17 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:17 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:17 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:17 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:22 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:23 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:23 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:23 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:23 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:23 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:24 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:24 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:24 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:24 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:24 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:24 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:32 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:33 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:33 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:33 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:33 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:33 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:07:40 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:07:41 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:07:41 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:07:41 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:07:41 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:07:41 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:11:37 - healthcare_rag_backend.app.core.logging_config - INFO - Retrieving documents for question: What medications was the patient prescribed?...
+2025-11-23 06:11:39 - healthcare_rag_backend.app.core.logging_config - INFO - Retrieved 2 similar documents (min similarity: 0.00)
+2025-11-23 06:11:39 - healthcare_rag_backend.app.core.logging_config - INFO - Generating response from LLM (async)...
+2025-11-23 06:11:39 - healthcare_rag_backend.app.core.logging_config - INFO - Calling OpenAI API (async) with model: gpt-4
+2025-11-23 06:11:45 - healthcare_rag_backend.app.core.logging_config - INFO - Received response (async) of length: 222
+2025-11-23 06:23:38 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:23:39 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:23:39 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:23:39 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:23:39 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:23:39 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:23:40 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:23:40 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:23:40 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:23:40 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:23:40 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:23:40 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:23:41 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:23:42 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:23:42 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:23:42 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:23:42 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:23:42 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:23:43 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:23:44 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:23:44 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:23:44 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:23:44 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:23:44 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:23:45 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:23:46 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:23:46 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:23:46 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:23:46 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:23:46 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:23:51 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:23:51 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:23:51 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:23:51 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:23:51 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:23:51 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:24:27 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:24:27 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:24:27 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:24:27 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:24:27 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:24:27 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:24:46 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:24:47 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:24:47 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:24:47 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:24:47 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:24:47 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:24:55 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:24:56 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:24:56 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:24:56 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:24:56 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:24:56 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:02 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:02 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:02 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:02 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:02 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:02 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:06 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:06 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:06 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:06 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:06 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:06 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:13 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:13 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:13 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:13 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:13 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:13 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:16 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:16 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:16 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:16 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:17 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:17 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:19 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:20 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:20 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:20 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:20 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:20 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:25 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:26 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:26 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:26 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:26 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:26 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:29 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:29 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:29 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:29 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:29 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:29 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:25:40 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:25:41 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:25:41 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:25:41 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:25:41 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:25:41 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete
+2025-11-23 06:52:16 - healthcare_rag_backend.app.core.logging_config - INFO - Shutting down Healthcare AI RAG API...
+2025-11-23 06:52:17 - healthcare_rag_backend.app.core.logging_config - INFO - Starting Healthcare AI RAG API...
+2025-11-23 06:52:17 - healthcare_rag_backend.app.core.logging_config - INFO - API Version: 2.0
+2025-11-23 06:52:17 - healthcare_rag_backend.app.core.logging_config - INFO - Redis URL: redis://localhost:6379
+2025-11-23 06:52:17 - healthcare_rag_backend.app.core.logging_config - INFO - Found 2 existing document chunks in Redis
+2025-11-23 06:52:17 - healthcare_rag_backend.app.core.logging_config - INFO - Application startup complete

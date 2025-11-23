@@ -47,12 +47,26 @@ The **Clinical Notes Assistant** is a Retrieval Augmented Generation (RAG) syste
 
 ## ✨ Features
 
+### Core Features
 - **Document Processing**: Automatically chunks and indexes clinical documents
 - **Vector Embeddings**: Uses OpenAI's `text-embedding-3-small` for semantic understanding
 - **RAG Pipeline**: Retrieves relevant context before generating responses
 - **RESTful API**: FastAPI backend with comprehensive error handling
 - **Interactive UI**: Streamlit-based web interface for seamless user experience
 - **Scalable Architecture**: Docker-ready for easy deployment
+
+### Enhanced Features (v2.0)
+- 🚀 **Async Support**: Fully asynchronous API for better performance
+- 📤 **Document Upload**: Upload and index new documents via API or UI
+- 💬 **Conversation History**: Maintain chat history in the frontend
+- 🌊 **Streaming Responses**: Real-time streaming of AI responses
+- 🔍 **Health Monitoring**: Health check and status endpoints
+- 📊 **Structured Logging**: Comprehensive logging with file and console output
+- ⚙️ **Configurable Settings**: Extensive configuration via environment variables
+- 🔄 **Connection Pooling**: Redis connection pooling for better resource management
+- 🎯 **Similarity Thresholding**: Filter results by similarity score
+- 🛡️ **Enhanced Error Handling**: Better error messages and exception handling
+- 📱 **Improved UI**: Modern, responsive interface with sidebar controls
 
 ---
 
@@ -177,13 +191,26 @@ touch .env
 
 ### 2. Add Environment Variables
 
+Create a `.env` file with the following variables:
+
 ```env
+# Required
 OPENAI_API_KEY=your_openai_api_key_here
 REDIS_URL=redis://localhost:6379
+
+# Optional (with defaults)
 VECTOR_STORE_INDEX_NAME=healthcare_index
+DEFAULT_MODEL=gpt-4
+EMBEDDING_MODEL=text-embedding-3-small
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+DEFAULT_TOP_K=4
+MIN_SIMILARITY_THRESHOLD=0.5
+CORS_ORIGINS=http://localhost:8501,http://localhost:3000
+LOG_LEVEL=INFO
 ```
 
-**Note**: Replace `your_openai_api_key_here` with your actual OpenAI API key.
+**Note**: Replace `your_openai_api_key_here` with your actual OpenAI API key. See `healthcare_rag_backend/.env.example` for all available configuration options.
 
 ---
 
@@ -223,18 +250,41 @@ The Streamlit app will open in your browser at `http://localhost:8501`
 - "What is the diagnosis?"
 - "What treatment plan was recommended?"
 
+### Frontend Features
+
+The enhanced Streamlit frontend includes:
+
+- 💬 **Chat Interface**: Natural conversation flow with message history
+- 📤 **Document Upload**: Upload new clinical documents directly from the UI
+- ⚙️ **Settings Panel**: Configure model parameters (Top K, streaming, etc.)
+- 📊 **Status Monitoring**: Real-time health and document count display
+- 🎨 **Modern UI**: Clean, responsive design with custom styling
+- 🔄 **Auto-refresh**: Automatic status updates
+
+### Uploading Documents
+
+You can upload documents in two ways:
+
+1. **Via UI**: Use the sidebar uploader in the Streamlit app
+2. **Via API**: Use the `/api/documents/upload` endpoint
+
 ---
 
 ## 📡 API Documentation
 
-### Endpoint: `POST /api/ask`
+### Endpoints
 
+#### `POST /api/ask`
 Query the clinical notes assistant with a question.
 
 **Request Body:**
 ```json
 {
-  "question": "What medications was the patient prescribed?"
+  "question": "What medications was the patient prescribed?",
+  "k": 4,
+  "model": "gpt-4",
+  "temperature": 0.0,
+  "stream": false
 }
 ```
 
@@ -242,26 +292,108 @@ Query the clinical notes assistant with a question.
 ```json
 {
   "question": "What medications was the patient prescribed?",
-  "answer": "Based on the clinical notes, the patient was prescribed..."
+  "answer": "Based on the clinical notes, the patient was prescribed...",
+  "document_count": 42
 }
 ```
 
-**cURL Example:**
+#### `POST /api/ask/stream`
+Stream responses in real-time (Server-Sent Events).
+
+**Request Body:** Same as `/api/ask` with `stream: true`
+
+**Response:** Streaming text/plain
+
+#### `GET /api/health`
+Health check endpoint.
+
+**Response:**
+```json
+{
+  "status": "healthy",
+  "document_count": 42,
+  "redis_connected": true
+}
+```
+
+#### `GET /api/status`
+Get application status.
+
+**Response:**
+```json
+{
+  "document_count": 42,
+  "redis_connected": true
+}
+```
+
+#### `POST /api/documents/upload`
+Upload and index a new clinical document.
+
+**Request:** Multipart form data with `file` field
+
+**Response:**
+```json
+{
+  "document_id": "clinical_notes.txt",
+  "chunks_created": 15,
+  "message": "Document 'clinical_notes.txt' uploaded and indexed successfully"
+}
+```
+
+#### `POST /api/documents/upload-text`
+Upload document content as text.
+
+**Query Parameters:**
+- `content`: Document text content
+- `document_id` (optional): Custom document ID
+
+#### `DELETE /api/documents/clear`
+Clear all documents from the vector store.
+
+**Examples:**
+
+**cURL - Basic Query:**
 ```bash
 curl -X POST "http://localhost:8000/api/ask" \
   -H "Content-Type: application/json" \
   -d '{"question": "What is the patient diagnosis?"}'
 ```
 
-**Python Example:**
+**cURL - Upload Document:**
+```bash
+curl -X POST "http://localhost:8000/api/documents/upload" \
+  -F "file=@clinical_notes.txt"
+```
+
+**Python - Async Query:**
 ```python
 import requests
 
 response = requests.post(
     "http://localhost:8000/api/ask",
-    json={"question": "What medications was the patient prescribed?"}
+    json={
+        "question": "What medications was the patient prescribed?",
+        "k": 5,
+        "temperature": 0.0
+    }
 )
 print(response.json())
+```
+
+**Python - Streaming:**
+```python
+import requests
+
+response = requests.post(
+    "http://localhost:8000/api/ask/stream",
+    json={"question": "What are the symptoms?"},
+    stream=True
+)
+
+for chunk in response.iter_content(chunk_size=None, decode_unicode=True):
+    if chunk:
+        print(chunk, end='', flush=True)
 ```
 
 ---
